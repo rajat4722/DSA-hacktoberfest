@@ -33,8 +33,9 @@ void print_Grid_style(int userRows, int userColumns, int **arr)
                     cout << " ";
                     if (arr[i / 2][j / 2] == 1)
                         cout << "Q";//just replace Q to 1 &
-                    else                                            
-                        cout << " ";// replace space to 0 if u want to print in 0-1 format
+                    else  
+                        // replace space to 0 if u want to print in 0-1 format
+                        cout << " ";
                     cout << " ";
                 }
             }
