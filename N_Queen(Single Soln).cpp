@@ -105,7 +105,7 @@ bool nqueen(int **arr, int x, int n) //not required to pass y & prev column coz 
 
 int main()
 {
-    cout << "Enter the number of Queens: ";
+    cout << "Enter the number of Queens:- ";
     int n;
     cin >> n;
     int **arr = new int *[n];
